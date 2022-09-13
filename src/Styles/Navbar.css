@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#fff;
+    box-shadow: 0 0 5px rgb(212, 210, 210);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.home-btn{
+    width: 20px;
+}
+
+
+.right-nav{
+    display: flex;
+}
+.cart{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.cart-num{
+    background-color: black;
+    padding: 5px;
+    border-radius: 100%;
+    width: 20px;
+    color: #fff;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
