@@ -9,8 +9,14 @@
 .banner{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* margin: 5%; */
+}
+.banner-img{
     margin: 5%;
+}
+.banner-text{
+    width: 100%;
 }
 
 .banner-text>h1{
@@ -59,5 +65,8 @@
     .banner-img>img{
         margin-left: 2%;
         margin-top: 5%;
+    }
+    .banner-text{
+        width: 80%;
     }
 }

@@ -36,7 +36,9 @@ export class Navbar extends Component {
               
             <Navigation categories={ categoryNames} />
         </div>
-        <img src={Logo} alt={Logo}/>
+        <div className="logo">
+          <a href="/"><img src={Logo} alt={Logo}/></a>
+        </div>
 
         <div className='right-nav'>
             <CurrencySwitch/>
