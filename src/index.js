@@ -21,7 +21,7 @@ const store = configureStore({
 })
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000",
+  uri: "https://scandiwebserve.herokuapp.com/",
   cache: new InMemoryCache(),
 });
 
